@@ -1,13 +1,13 @@
-package com.example.manuelvazquez.pruebaMaven;
+package com.example.gustavo.gustavo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PruebaMavenApplication {
+public class GustavoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PruebaMavenApplication.class, args);
+		SpringApplication.run(GustavoApplication.class, args);
 	}
 
 }
