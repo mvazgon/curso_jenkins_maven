@@ -12,7 +12,7 @@ pipeline{
     stage ("Goals Maven"){
       steps{
         echo "aqui tenemos que construir"
-        dir("./Ejercicio_5/")
+        dir('./Ejercicio_5/')
         sh """
           pwd
         """
