@@ -15,7 +15,7 @@ pipeline{
           cd Ejercicio_5
           mvn clean install
           mvn test
-          ls -lrtha *.war
+          ls -lrtha *.jar
         """
       }
     }
