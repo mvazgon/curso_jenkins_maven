@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example.gustavo</groupId>
 	<artifactId>gustavo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>gustavo</name>
 	<description>Ejemplo de Maven y Jenkins</description>
 	<properties>
