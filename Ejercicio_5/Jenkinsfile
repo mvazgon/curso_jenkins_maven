@@ -1,0 +1,20 @@
+pipeline{
+  agent any
+  tools{
+    maven 'maven_3.9.2'
+  }
+  stages{
+    stage ("Clonado del repositorio"){
+    }
+    stage ("Goals Maven"){
+    }
+    stage ("Movemos el producto renombrandolo"){
+    }
+  }
+  post{
+    success{
+    }
+    failure{
+    }
+  }
+}
