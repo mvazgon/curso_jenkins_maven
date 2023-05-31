@@ -12,8 +12,10 @@ pipeline{
     stage ("Goals Maven"){
       steps{
         sh """
+          cd Ejercicio_5
           mvn clean install
           mvn test
+          ls -lrtha *.war
         """
       }
     }
