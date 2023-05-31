@@ -12,6 +12,9 @@ pipeline{
     stage ("Goals Maven"){
       steps{
         echo "aqui tenemos que construir"
+        sh """
+          find ./ -name pom.xml
+        """
       }
     }
     stage ("Movemos el producto renombrandolo"){
