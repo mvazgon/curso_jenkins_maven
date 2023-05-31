@@ -13,6 +13,7 @@ pipeline{
       steps{
         echo "aqui tenemos que construir"
         sh """
+          pwd
           find ./ -name pom.xml
         """
       }
