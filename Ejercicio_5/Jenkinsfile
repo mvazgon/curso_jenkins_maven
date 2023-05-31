@@ -11,10 +11,9 @@ pipeline{
     }
     stage ("Goals Maven"){
       steps{
-        echo "aqui tenemos que construir"
-        dir('./Ejercicio_5/')
         sh """
-          pwd
+          mvn clean install
+          mvn test
         """
       }
     }
