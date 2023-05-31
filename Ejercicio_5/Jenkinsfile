@@ -5,16 +5,27 @@ pipeline{
   }
   stages{
     stage ("Clonado del repositorio"){
+      steps{
+        git branch: "develop" , url: "https://github.com/mvazgon/curso_jenkins_maven.git"
+      }
     }
     stage ("Goals Maven"){
+      steps{
+        echo "aqui tenemos que construir"
+      }
     }
     stage ("Movemos el producto renombrandolo"){
+      steps{
+        echo "aqui tenemos que mover"
+      }
     }
   }
   post{
     success{
+      echo "Lo logramos"
     }
     failure{
+      echo "Fallamos"
     }
   }
 }
